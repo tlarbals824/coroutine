@@ -45,7 +45,12 @@ subprojects{
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
         implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
         implementation("org.jetbrains.kotlin:kotlin-reflect")
+
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8")
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-rx3")
+
         testImplementation("org.springframework.boot:spring-boot-starter-test")
         testImplementation("io.projectreactor:reactor-test")
     }
