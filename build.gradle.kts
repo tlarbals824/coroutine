@@ -50,6 +50,9 @@ subprojects{
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8")
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-rx3")
+        implementation("io.smallrye.reactive:mutiny:1.6.0")
+        implementation("io.smallrye.reactive:mutiny-kotlin:2.0.0")
+
 
         testImplementation("org.springframework.boot:spring-boot-starter-test")
         testImplementation("io.projectreactor:reactor-test")
